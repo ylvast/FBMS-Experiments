@@ -1,0 +1,14 @@
+name: DS_master
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib  
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - jupyter
