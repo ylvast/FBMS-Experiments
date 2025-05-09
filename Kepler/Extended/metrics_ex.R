@@ -3,24 +3,24 @@ source("../helpers.R")
 library(FBMS)
 
 # Single results without noise, comment in
-# results <- read.csv("./Results/Single_results/merged_results.csv")
-# feature_results <- read.csv("./Results/Single_results/merged_features.csv")
-# colnames <- c("S1","S2","S3","S4","S5","S6")
+results <- read.csv("./Results/Single_results.csv")
+feature_results <- read.csv("./Results/Single_features.csv")
+colnames <- c("S1","S2","S3","S4","S5","S6")
 
 # Parallel results without noise, comment in
-# results <- read.csv("./Results/Parallel_results/merged_results.csv")
-# feature_results <- read.csv("./Results/Parallel_results/merged_features.csv")
+# results <- read.csv("./Results/Parallel_results.csv")
+# feature_results <- read.csv("./Results/Parallel_features.csv")
 # colnames <- c("P1","P2","P3","P4","P5","P6")
 
 # Single results without noise, comment in
-# results <- read.csv("./Results/Single_results_noise/merged_results.csv")
-# feature_results <- read.csv("./Results/Single_results_noise/merged_features.csv")
+# results <- read.csv("./Results/Single_results_noise.csv")
+# feature_results <- read.csv("./Results/Single_features_noise.csv")
 # colnames <- c("S1","S2","S3","S4","S5","S6")
 
 # Parallel results with noise, comment in
-results <- read.csv("./Results/Parallel_results_noise/merged_results.csv")
-feature_results <- read.csv("./Results/Parallel_results_noise/merged_features.csv")
-colnames <- c("P1","P2","P3","P4","P5","P6")
+# results <- read.csv("./Results/Parallel_results_noise.csv")
+# feature_results <- read.csv("./Results/Parallel_features_noise.csv")
+# colnames <- c("P1","P2","P3","P4","P5","P6")
 
 rownames <- c("Pow","F1","F2","F3","F4","Count_P","Count_FP","FDR","Correlation_P","Correlation_FP","MAE","Time","Correlation_P_Med",
               "Correlation_P_Max","Correlation_P_Min","Correlation_FP_Med","Correlation_FP_Max","Correlation_FP_Min","MAE_Med","MAE_Max",

@@ -1,7 +1,7 @@
 # Results for extended boston housing
 
-# results <- read.csv("./Results/Parallel_results/merged_results.csv")
-results <- read.csv("./Results/Single_results/merged_results.csv")
+# results <- read.csv("./Results/Parallel_results.csv")
+results <- read.csv("./Results/Single_results.csv")
 
 colnames <- c("S1","S2","S3","S4","S5","S6","P1","P2","P3","P4","P5","P6")
 rownames <- c("Correlation","MAE","RMSE","Time")
