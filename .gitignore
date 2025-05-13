@@ -1,8 +1,10 @@
 */results_*
 */features_*
 */2025*
-.Rproj.user
+**/.Rproj.user
 **/Output*
 Final_Results
-.Rhistory
-*.Rproj
+**/.Rhistory
+**/.Rproj
+**/.RData
+**/.DS_Store
